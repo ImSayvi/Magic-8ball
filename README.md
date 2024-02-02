@@ -1,6 +1,9 @@
 # Magic 8Ball
 
-
+## Introduction
+* Name: Julia
+* help me with this shit <3
+* 10k where?
 
 ## Getting started
 
