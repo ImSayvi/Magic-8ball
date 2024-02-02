@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8ball</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="header">
+            <h2>Magic 8Ball</h2>
+            <p>Zadaj pytanie, kliknij bilę i poznaj prawdę!</p>
+        </div>
+
+        <div class="img">
+            <img src="pngegg.png" alt="kula" onclick="giveAnswer()">
+        </div>
+
+        <div class="question">
+            <h2>Zadaj pytanie:</h2>
+            <input id="questionArea" type="text">
+            
+
+        </div>
+
+        <div class="answer">
+            <p id="warning"></p>
+            <p id="answerField"></p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
